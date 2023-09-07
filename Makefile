@@ -6,7 +6,7 @@
 #    By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/14 09:42:10 by wmoughar          #+#    #+#              #
-#    Updated: 2023/09/07 16:41:45 by wmoughar         ###   ########.fr        #
+#    Updated: 2023/09/07 17:37:22 by wmoughar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,7 @@ CC = gcc
 
 FRAMEWORKS = -framework OpenGL -framework Appkit
 
-CFLAGS = -Wall -Wextra -Werror -g -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror -g #-fsanitize=address
 
 OBJECTS = $(addsuffix .o, $(basename $(SOURCES)))
 

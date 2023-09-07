@@ -6,7 +6,7 @@
 /*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 14:29:06 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/09/07 16:40:18 by wmoughar         ###   ########.fr       */
+/*   Updated: 2023/09/07 17:41:13 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ bool	ft_extension_is_cub(char *argv)
 			&& argv[i - 2] == 'u' && argv[i - 1] == 'b'))
 	{
 		ft_putendl_fd("Map extension should be .cub!", STDERR_FILENO);
-		return (false);
+		exit(1);
 	}
 	return (true);
 }

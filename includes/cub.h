@@ -6,7 +6,7 @@
 /*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 13:18:39 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/09/07 16:39:16 by wmoughar         ###   ########.fr       */
+/*   Updated: 2023/09/07 17:42:12 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -195,6 +195,5 @@ void			arrow_movements(int key, t_map *map, double move_step);
 
 //main
 void			ft_error(char *message);
-
 
 #endif
