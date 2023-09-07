@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: amurawsk <amurawsk@student.42wolfsburg.    +#+  +:+       +#+         #
+#    By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/14 09:42:10 by wmoughar          #+#    #+#              #
-#    Updated: 2023/09/06 19:01:32 by amurawsk         ###   ########.fr        #
+#    Updated: 2023/09/07 16:41:45 by wmoughar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

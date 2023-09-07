@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_get_file_content.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amurawsk <amurawsk@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/21 16:57:15 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/09/06 17:53:44 by amurawsk         ###   ########.fr       */
+/*   Updated: 2023/09/07 16:39:45 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ bool	ft_get_token_type(t_map *map)
 
 	fd = open(map->filename, O_RDONLY);
 	if (fd == -1)
-		return (perror("Error opening file"), false);
+		ft_error("Error opening file!");
 	ft_init_content(map);
 	line = get_next_line(fd);
 	while (line)

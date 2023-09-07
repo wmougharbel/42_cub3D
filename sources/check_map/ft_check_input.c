@@ -6,7 +6,7 @@
 /*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 14:29:06 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/08/18 10:52:24 by wmoughar         ###   ########.fr       */
+/*   Updated: 2023/09/07 16:40:18 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ bool	ft_check_arguments(int argc)
 		ft_putendl_fd("Incorrect number of arguments!", STDERR_FILENO);
 		printf("Argument 1: ./cub3D\n");
 		printf("Argument 2: Map with .cub extension\n");
-		return (false);
+		exit(1);
 	}
 	return (true);
 }

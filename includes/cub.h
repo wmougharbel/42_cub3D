@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amurawsk <amurawsk@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 13:18:39 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/09/06 19:00:14 by amurawsk         ###   ########.fr       */
+/*   Updated: 2023/09/07 16:39:16 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -192,5 +192,9 @@ int				firing_ray(t_map *map);
 	//controls
 int				ft_key_controls(int key, t_map *map);
 void			arrow_movements(int key, t_map *map, double move_step);
+
+//main
+void			ft_error(char *message);
+
 
 #endif

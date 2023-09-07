@@ -6,13 +6,19 @@
 /*   By: wmoughar <wmoughar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 09:42:03 by wmoughar          #+#    #+#             */
-/*   Updated: 2023/09/06 10:54:12 by wmoughar         ###   ########.fr       */
+/*   Updated: 2023/09/07 16:38:48 by wmoughar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <string.h>
 #include "../includes/cub.h"
+
+void	ft_error(char *message)
+{
+	ft_putendl_fd(message, 2);
+	exit(1);
+}
 
 int	main(int argc, char **argv)
 {
