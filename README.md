@@ -1,4 +1,4 @@
-![](Screen Shot 2023-09-10 at 10.43.13 AM.png)
+![](screen_cub3d.png)
 
 # Cub3D
 
