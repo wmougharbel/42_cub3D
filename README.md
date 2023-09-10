@@ -1,3 +1,5 @@
+![](Screen Shot 2023-09-10 at 10.43.13 AM.png)
+
 # Cub3D
 
 ## Overview
